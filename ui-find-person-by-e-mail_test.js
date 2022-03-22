@@ -12,7 +12,7 @@ Scenario('Find an existing person by their e-mail-address', ({I}) => {
 })
 
 Scenario('Do not find a non-existing person by a fake e-mail-address', ({I}) => {
-    I.fillField('#emailadres',"madeleine@peyroux.com");
+    I.fillField('#emailadres',"marc.rutte@gmail.com");
     I.click('#search-person');
     I.seeInPopup('Server returned 404');
 })
