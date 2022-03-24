@@ -17,6 +17,7 @@ exports.config = {
   hooks: [],
   gherkin: {
     features: './features/*.feature',
+    // steps: ['./step_definitions/steps_persons.simple.js']
     // step definitions using page objects:
     steps: ['./step_definitions/steps_persons.js']
   },
